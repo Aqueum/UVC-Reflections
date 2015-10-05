@@ -5,11 +5,17 @@ What happens when you initialize a repository? Why do you need to do it?
 	git adds a .git directory 
 	which includes: the files HEAD config & description 
 	& the directory's hooks objects branches description info & refs
-	it doesn't actually add any commits so you need to use "git add" to add all the files that you want to track
+	it doesn't actually add any commits so you need to use "git add" 
+	to add all the files that you want to track
 
-How is the staging area different from the working directory and the repository? What value do you think it offers?
-	the staging area is between the working directory and the repository, containing files that we have decided to track
-	I'm still guessing the value, but think its something to do with being able to limit commits to logical steps
-	here there is no point in committing lesson 1 along with lesson 2, so by having a staging area we can put only 
-	lesson 1's files in while working on that, then we can add lesson 2's files and remove lesson 1's from the staging area
+How is the staging area different from the working directory and the repository? 
+What value do you think it offers?
+	the staging area is between the working directory and the repository, 
+	containing files that we have decided to track
+	I'm still guessing the value, but think its something to do with being able 
+	to limit commits to logical steps
+	here there is no point in committing lesson 1 along with lesson 2, 
+	so by having a staging area we can put only lesson 1's files in 
+	while working on that, then we can add lesson 2's files 
+	and remove lesson 1's from the staging area
 	hence thereafter commits will only cover lesson 2
