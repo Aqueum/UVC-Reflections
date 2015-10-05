@@ -40,3 +40,11 @@ How do the diagrams help you visualize the branch structure?
 	you can see the parents of each commit & each branch,
 	so you can see what won't be included in any branch, where it branched 
 	before the change
+
+What is the result of merging two branches together? 	
+	it's frickn amazing, lazers shooting from it's eyes AND
+	it takes all the shared code between two commits adds any additions
+	when compared with their common ancestor and doesn't add any deletions
+Why do we represent it in the diagram the way we do?
+	because it's parents are both the commits that were merged 
+	(so we point to them both)
