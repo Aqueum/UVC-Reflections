@@ -33,4 +33,8 @@ and what would be harder?
   
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
+	A separate branch is good for experimentation, and leaving a functioning 
+	master.  I would use a separate branch whenever I worked on a collaborative
+	project, as otherwise I risk screwing things up for everyone.
+	However it does add pain, in that you need to keep merging in the master.
   
