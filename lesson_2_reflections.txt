@@ -6,7 +6,7 @@ What happens when you initialize a repository? Why do you need to do it?
 	which includes: the files HEAD config & description 
 	& the directory's hooks objects branches description info & refs
 	it doesn't actually add any commits so you need to use "git add" 
-	to add all the files that you want to track
+	then "git commit" to add initial commits.
 
 How is the staging area different from the working directory and the repository? 
 What value do you think it offers?
@@ -20,8 +20,7 @@ What value do you think it offers?
 	and remove lesson 1's from the staging area
 	hence thereafter commits will only cover lesson 2)
 	*** I have since learned that this isn't how git works: 
-	you always add to the staging area before making a commit so you only need
-	to 
+	you always add to the staging area before making a commit, 
 	although the 'git commit -a' command seems to be able to combine add+commit
 	
 How can you use the staging area to make sure you have one commit 
@@ -34,7 +33,8 @@ What are some situations when branches would be helpful in keeping your
 history organized? How would branches help?
 	Any significant development where the existing code base is still required 
 	so that small bugs can be fixed on the main code - like working in a sandbox
-	Or the creation and maintenance of special versions
+	Or the creation and maintenance of special versions.
+	Or just separating tasks & letting you focus on one aspect at once.
 
 How do the diagrams help you visualize the branch structure?
 	you can see the parents of each commit & each branch,
@@ -46,5 +46,11 @@ What is the result of merging two branches together?
 	it takes all the shared code between two commits adds any additions
 	when compared with their common ancestor and doesn't add any deletions
 Why do we represent it in the diagram the way we do?
-	because it's parents are both the commits that were merged 
+	because its parents are both the commits that were merged 
 	(so we point to them both)
+
+What are the pros and cons of Git’s automatic merging 
+vs. always doing merges manually?
+	pros: automatic merging saves time on simple merges where edits made in 
+	different areas
+	cons: you may get frustrated that it can't do it all itself
