@@ -35,3 +35,8 @@ history organized? How would branches help?
 	Any significant development where the existing code base is still required 
 	so that small bugs can be fixed on the main code - like working in a sandbox
 	Or the creation and maintenance of special versions
+
+How do the diagrams help you visualize the branch structure?
+	you can see the parents of each commit & each branch,
+	so you can see what won't be included in any branch, where it branched 
+	before the change
