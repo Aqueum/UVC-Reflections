@@ -29,3 +29,9 @@ per logical change?
 	you can commit either a single file, or a bunch of files, 
 	you only add the files that have changed 
 	(where the change relates to a logical change)
+
+What are some situations when branches would be helpful in keeping your 
+history organized? How would branches help?
+	Any significant development where the existing code base is still required 
+	so that small bugs can be fixed on the main code - like working in a sandbox
+	Or the creation and maintenance of special versions
