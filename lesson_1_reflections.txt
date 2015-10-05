@@ -1,29 +1,34 @@
-Seems like Git is what the cool kids are doing, so I'd better learn how to use it.
+Seems like Git is what the cool kids are doing, 
+so I'd better learn how to use it.
 
 On text editors:
-Udacity's cool kids use emacs, but I prefer vim (following the CS50 cool kids who frankly look a lot cooler)
-but VIM's still a PITA so lets use Sublime text.
-I've gone with Sublime Text 3, as it's a beta, so I presume I'm OK using it without a licence.
-That said, I should probably register it now...  
-...OK, can't find a way of doing that, so I guess unregistered just means I haven't paid and entered the license key yet.  
-I can live with that, given that I'm currently evaluating while learning to code & that I'm using a beta.
+Udacity's cool kids use emacs, but I prefer vim 
+(following the CS50 cool kids who frankly look a lot cooler)
+but vim's still accasionally a PITA to scroll around 
+so lets try Sublime text as per their recommendation.
+I've gone with Sublime Text 3, as it's a beta, so I presume I'm OK using
+it without a licence. That said, I should probably register it now...  
+...OK, can't find a way of doing that, so I guess unregistered just means 
+I haven't paid and entered the license key yet.  I can live with that, 
+given that I'm currently evaluating while learning to code 
+& that I'm using a beta.
 
 Version control seems like a bit of a no-brainer.
 My assumption was that you only needed it when developing in teams, 
 and that I already have primative versioning with dropbox's PackRat, 
-but if there's a way that I can autoversion everything without too much extra effort then that's wonderful.
-As for the ability to check differences without needing to boot up the likes of Diff, that would be wonderful.
+but if there's a way that I can autoversion everything without too much 
+extra effort then that's wonderful.  As for the ability to check differences 
+without needing to boot up the likes of Diff, that would be wonderful.
 
 Now, as for their prompts - I really should read the question:
 
-How did viewing a diff between two versions of a file help you see the bug that
-was introduced?
+How did viewing a diff between two versions of a file help you see 
+the bug that was introduced?
+    diff -u old.txt new.txt highlights the differences, so I can easily 
+    focus on what's different.
 
-    diff -u old.txt new.txt highlights the differences, so I can easily focus on what's different.
-
-How could having easy access to the entire history of a file make you a more
-efficient programmer in the long term?
-
+How could having easy access to the entire history of a file make you a 
+more efficient programmer in the long term?
     No matter how far back my balls up was, I could revert to a safe state 
     - I'm guessing I can also just revert the ballsed up portion, 
 	leaving all the good changes as saved 
@@ -32,34 +37,37 @@ efficient programmer in the long term?
 What do you think are the pros and cons of manually choosing when to create a
 commit, like you do in Git, vs having versions automatically saved, like Google
 docs does?
-
-    Pros - the commits make sense, should always end up compileable & you don't get too many
-    Cons - I always forget to save, so I imagine I may also frequently forget to commit
+    Pros - the commits make sense, 
+    should always end up compileable 
+    & you don't get too many
+    Cons - I always forget to save, 
+    so I imagine I may also frequently forget to commit
 
 Why do you think some version control systems, like Git, allow saving multiple
 files in one commit, while others, like Google Docs, treat each file separately?
-
-    I guess Google Docs is meant for docs, but Git is meant for programming which may require multiple files in a project
-    hang on, I'm answering questions about things that haven't even been discussed in the course.  Have I gone too far?
+    I guess Google Docs is meant for docs, but Git is meant for programming 
+    which may require multiple files in a project
+    hang on, I'm answering questions about things that haven't even been 
+    discussed in the course.  Have I gone too far?
+    
     After catching up with the videos:
-    the big reason to bundle them is that a single change is likely to affect multiple files,
-    storing them file-wise, you'd spend ages looking for the .html, .js & .css that for example related to a new button.
+    the big reason to bundle them is that a single change is likely to affect 
+    multiple files, storing them file-wise, you'd spend ages looking for the 
+    .html, .js & .css that for example related to a new button.
 
 How can you use the commands git log and git diff to view the history of files?
-
-    get yourself in a repository (by git clone http://www.therepositorythatyouwant.whatever)
-    (I don't yet know how to create a new repository from scratch)
-    then 'git log' gets you a list of the commits (space or arrows to navigate q to quit)
+    get yourself in a repository 
+    (by git clone http://www.therepositorythatyouwant.whatever)
+    (I don't yet know how to create a new repository from scratch) then 
+    'git log' gets you a list of commits (space/arrows to navigate q to quit)
     then 'git diff' old_big_long_ID new_big_long_ID gets you the files 
     with - deletions and + insertions (space or arrows to navigate q to quit)
 
 How might using version control make you more confident to make changes that
 could break something?
-
     You can go ahead and change stuff knowing you can always turn back time.
 
 Now that you have your workspace set up, what do you want to try using Git for?
-
     If that's the end of this course, then I'm back into the javascript course
     from there I guess I'll use git for the camera tutor app
     and then the world...
