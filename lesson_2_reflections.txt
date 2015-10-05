@@ -1,0 +1,8 @@
+Starting a new reflection for lesson 2
+I'd rather go free text, but they seem to like giving me questions...
+
+What happens when you initialize a repository? Why do you need to do it?
+	git adds a .git directory 
+	which includes: the files HEAD config & description 
+	& the directory's hooks objects branches description info & refs
+	it doesn't actually add any commits so you need to use "git add" to add all the files that you want to track
